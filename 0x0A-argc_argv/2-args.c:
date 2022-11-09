@@ -1,0 +1,3 @@
+rgs.c:14:15: warning: comparison between pointer and integer
+   14 | for (i = 0; i < argv; i++)
+         |           

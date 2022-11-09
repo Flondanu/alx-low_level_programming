@@ -35,7 +35,8 @@ int count;
 int str_to_int;
 int sum = 0;
 count = 1;
-while (count < argc) /*Goes through the whole array*/
+while (count < argc) /*Goes through the whole/
+{
 if (check_num(argv[count]))
 {
 str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
@@ -49,8 +50,6 @@ return (1);
 }
 count++;
 }
-else
-{
 printf("%d\n", 0);
 return (1);
 }
