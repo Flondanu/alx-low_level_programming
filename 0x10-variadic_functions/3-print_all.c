@@ -3,8 +3,9 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
-   * print_c - prints char
-    * @a: list to give
+   * print_all - entry point
+   * c = char, i = int, f = float, s = char * (if null print (nil))
+    * @format: list of all arg types
      * Return: always 0
 */
 void print_all(const char * const format, ...)
